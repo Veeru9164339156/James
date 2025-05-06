@@ -1,0 +1,12 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    text-transform: capitalize;
+    color: aqua;
+}
+p{
+    color: burlywood;
+    text-transform: capitalize;
+}
