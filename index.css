@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -59,4 +60,17 @@ body {
 
 .login-container a:hover {
     text-decoration: underline;
+=======
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    text-transform: capitalize;
+    color: aqua;
+}
+p{
+    text-transform: capitalize;
+    color: brown;
+>>>>>>> ae4fdf302eff7510edbc9c6eedb8f50f790edefa
 }
