@@ -1,20 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhee Coding Lab</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      background-color: #333;
+      overflow: hidden;
+      display: flex;
+      padding: 10px 20px;
+    }
+
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .navbar a:hover {
+      background-color: #575757;
+    }
+
+    .container {
+      display: flex;
+      padding: 20px;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    .image-section {
+      flex: 1;
+      max-width: 300px;
+    }
+
+    .image-section img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    .content-section {
+      flex: 2;
+      padding: 0 30px;
+    }
+
+    .links-section {
+      flex: 1;
+      max-width: 200px;
+      padding-left: 20px;
+    }
+
+    .links-section h3 {
+      margin-bottom: 10px;
+    }
+
+    .links-section a {
+      display: block;
+      margin-bottom: 10px;
+      color: #007BFF;
+      text-decoration: none;
+    }
+
+    .links-section a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
-
 <body>
-    <h1>Hi Guys CHANGES Ddone by rakesh</h1>
-    <p>This James Gosling, Founder of Java(Name of island in idoneaisa,1995) WORA hi man</p>
 
-    <h1>Hi Guys CHANGES DONE by me priyanshu</h1>
-    <p>This James Gosling, Founder of Java(Name of island in idoneaisa,1995) WORA</p>
-    <a href="Priya.html">priyanshu portfolio</a>
+  <div class="navbar">
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Services</a> <!-- Placeholder -->
+  </div>
+
+  <div class="container">
+    <div class="image-section">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/No-Image-Placeholder.svg" alt="Dhee Coding Lab">
+    </div>
+    <div class="content-section">
+      <h2>Welcome to Dhee Coding Lab</h2>
+      <p>This is a simple webpage mockup featuring a navbar and an image section. The content here is just for display and does not perform any interactive functions.</p>
+    </div>
+    <div class="links-section">
+      <h3>My Pages</h3>
+      <a href="Priya.html">Portfolio</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+    </div>
+  </div>
+
 </body>
-
 </html>
